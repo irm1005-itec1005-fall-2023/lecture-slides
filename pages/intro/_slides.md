@@ -7,6 +7,5 @@ src: course.md
 ---
 
 ---
-hide: true
-src: ./intro/ice-breaker.md
+src: ice-breaker.md
 ---

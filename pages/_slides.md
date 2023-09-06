@@ -10,3 +10,6 @@ src: ./toc/toc.md
 src: ./intro/_slides.md
 ---
 
+---
+src: ./internet/_slides.md
+---

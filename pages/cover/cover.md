@@ -5,9 +5,9 @@ hideInToc: true
 level: 2
 ---
 
-# Welcome!asdfasd
+# Welcome!
 
-IMD1005 - Web Development
+IRM1005 | ITEC1005 - Web Development
 
 <!-- Add date to bottom of the page -->
 <div class="absolute bottom-0 ">

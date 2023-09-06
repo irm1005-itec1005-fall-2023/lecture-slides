@@ -1,11 +1,11 @@
 ---
 layout: intro
-title: Unpack IMD1005
+title: Cirriculum
 level: 1
 ---
 
-# IMD1005
-Unpack the whole cirriculum
+# IRM1005 - ITEC1005
+Unpack the cirriculum
 
 <!-- 
 
@@ -21,36 +21,22 @@ Slide notes:
 ---
 title: Welcome
 level: 2
-layout: two-cols-header
 ---
 
 # What we cover
 Everything you need to know to get started with Web Development
 
-::left::
-
 * Core HTML Technologies
   * HTML5
   * CSS3
-  * JavaScript ES13
-  * (including a11y)
+  * JavaScript
+  * Accessibility (#a11y)
   * APIs
-* Libraries and frameworks
-  * TailwindCSS
-  * VueJS
-  * Nuxt
-
-::right::
 
 * Modern front end tooling
   * Git
   * GitHub
   * VSCode
-  * ESLint
-  * Prettier
-  * Node
-  * NPM
-  * Vite
   * Deployments
 
 
@@ -102,7 +88,6 @@ level: 2
 ---
 
 # Our schedule
-Journey through the different topics
 
 ```mermaid
 gantt
@@ -110,29 +95,34 @@ gantt
     dateFormat  YYYY-MM-DD
     
     section Topics
-    HTML :a, 2023-01-10, 3w 
-    CSS :b, 2023-01-23, 3w 
-    JavaScript :c, after a b, 4w
-    Frameworks and Libraries :d, 2023-03-10, 4w
+    HTML :a, 2023-09-11, 2w 
+    CSS :b, 2023-09-25, 3w 
+    JavaScript :c, after a b, 5w
+    Advanced CSS :d, after c, 2w 
+    Review :e, after d, 1w 
 
-    section Challenges
-    Challenge 1  :milestone, m1, 2023-01-16,1d
-    Challenge 2  :milestone, m2, 2023-01-23,1d
-    Challenge 3  :milestone, m3, 2023-01-30,1d
-    Challenge 4  :milestone, m3, 2023-02-06,1d
-    Challenge 5  :milestone, m4, 2023-02-13,1d
-    Challenge 6  :milestone, m5, 2023-02-20,1d
-    Challenge 7  :milestone, m6, 2023-02-27,1d
-    Challenge 8  :milestone, m7, 2023-03-06,1d
-    Challenge 9  :milestone, m8, 2023-03-13,1d
-    Challenge 10  :milestone, m9, 2023-03-20,1d
-    Challenge 11  :milestone, m10, 2023-03-27,1d
+    section Tutorials
+    Tutorial 1  :milestone, m1, 2023-09-11,1d
+    Tutorial 2  :milestone, m2, 2023-09-18,1d
+    Tutorial 3  :milestone, m3, 2023-09-25,1d
+    Tutorial 4  :milestone, m4, 2023-10-02,1d
+    Tutorial 5  :milestone, m5, 2023-10-09,1d
+    Tutorial 6  :milestone, m6, 2023-10-16,1d
+    Tutorial 7  :milestone, m7, 2023-10-30,1d
+    Tutorial 8  :milestone, m8, 2023-11-06,1d
+    Tutorial 9  :milestone, m9, 2023-11-13,1d
+    Tutorial 10  :milestone, m10, 2023-11-20,1d
+    Tutorial 11  :milestone, m11, 2023-11-27,1d
+    Tutorial 12  :milestone, m12, 2023-12-04,1d
 
     section Grading
-    Assignment 1  :milestone, ma1, 2023-01-27,1d
-    Assignment 2  :milestone, ma2, 2023-02-17,1d
-    Assignment 3  :milestone, ma3, 2023-03-14,1d
-    Group Project  :milestone, ma4, 2023-04-04,1d
+    Assignment 1  :milestone, ma1, 2023-09-24,1d
+    Midterm :milestone, ma6, 2023-10-11,1d
+    Assignment 2  :milestone, ma2, 2023-10-15,1d
+    Assignment 3  :milestone, ma3, 2023-11-05,1d
+    Assignment 4  :milestone, ma4, 2023-11-19,1d
+    Group Project  :milestone, ma5, 2023-12-08,1d
+    Final :milestone, ma7, 2023-12-08,1d
 ```
 
 
@@ -151,15 +141,16 @@ level: 2
 ---
 
 # Grading
-You got this!
 
 |**Evaluation**|**Description**|**Due Date**|**Mark**|
 |---|---|---|---|
-|Assignment 1|Research project - designing a small website|2023-01-27|15%|
-|Assignment 2|Build a few web pages using HTML5 and CSS3|2023-02-17|20%|
-|Assignment 3|Make an interactive web app with JavaScript|2023-03-14|25%|
-|Group Project (Code)|Build something awesome 🚀|2023-04-04|30%|
-|Group Project (Presentation)|Show the thing 👫|2023-04-04|10%|
+|Assignment 1|Build a small web page|2023-09-24|10%|
+|Assignment 2|Add style to a web page CSS3|2023-10-15|15%|
+|Assignment 3|Intro to JavaScript|2023-11-05|15%|
+|Assignment 4|Make an interactive web app with JavaScript|2023-11-19|15%|
+|Group Project|Creating a web site|2023-12-08|15%|
+|Midterm|Build a web page|2023-10-11|10%|
+|Final exam|Build a web page|Scheduled by the registrar|20%|
 
 
 ---
@@ -175,11 +166,11 @@ Laying out how we want to work as a team
 * Please come to class
 * Lecture slides will always be posted online
 * Brightspace for course updates, grades, and urgent announcements 
-* GitHub for assignments, challenges and exercises
-* Assignments are due for noon (11:59 AM)
-* Instant messaging:
-  * MS Teams (Carleton Accounts); or 
-  * MS Teams (Algonquin Accounts)
+* GitHub for assignments, and tutorial exercises
+* Community: 
+  * GitHub Discussions
+  * MS Teams
+* Assignments are due at midnight (11:59 PM)
 
 <!-- 
 
@@ -202,10 +193,9 @@ image: /images/slides/intro/the-course/negotiate.jpg
 Negotiating a late policy
 
 * Managing delivering late in industry
-* You may want a flexible late policy 
-* I need course feedback
-* Late policy for IMD1005
-  * Two assignments can be late, up to one calendar week, without penalty
+* Late work will not be accepted
+* Somethings stuff happens
+  * Contact me prior to the due date to request a one week extention 
 
 <!-- 
 
@@ -219,13 +209,7 @@ Slide notes:
   * Can you even catch up? 
   * How are you mitigating issues down stream 
 
-* The goal is to mimic industry as best as possible 
-* The offer 
-  * Five (5) feedback forms every two weeks 
-  * In exchange for every student obtaining a one week extention option on any of the assignments 
-  * Can not be used to delay the group project 
-  * Students must inform at least three days (36 hours) prior to the due date of the assignment
-
+* The goal is to mimic industry as best as possible
 -->
 
 
@@ -240,10 +224,10 @@ image: /images/slides/intro/the-course/neil-01.jpeg
 Here's how to connect
 
 * Email is best
-  * mispeln@algonquincollege.com
+  * neil.mispelaar@carleton.ca
 * Tag me on GitHub
     * [@neilmispelaar](https://github.com/neilmispelaar/)
-* Instant messager
+* Catch me on Microsoft Teams 
 * My standard is to respond within 24 hours for emails (but you'll likely get a reply sooner than that)
 
 <!-- 

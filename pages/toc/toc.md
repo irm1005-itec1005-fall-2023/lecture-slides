@@ -3,7 +3,7 @@ hideInToc: true
 level: 2
 ---
 
-# Table of Contentsafdsafs
+# Table of Contents
 
 Course lecture slides for IMD1005
 
