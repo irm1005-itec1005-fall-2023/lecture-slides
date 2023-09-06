@@ -1,7 +1,12 @@
 ---
-src: ./cover/_cover.md
+src: ./cover/cover.md
 ---
 
 ---
-src: ./toc/_toc.md
+src: ./toc/toc.md
 ---
+
+---
+src: ./intro/_slides.md
+---
+
