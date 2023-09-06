@@ -149,7 +149,6 @@ Because there is more to life than just code
 * Naps 
 
 
-
 <!-- 
 
 Slide Notes: 
@@ -354,7 +353,7 @@ image: /images/slides/intro/about-me/neil-stats-02.jpeg
 # My credentials
 Step 6
 
-## Statistics Canada <span class="text-blue-400 text-xs">(current)</span>
+## Statistics Canada <span class="text-blue-500 text-xs">(current)</span>
 
 Full stack Developer
 
