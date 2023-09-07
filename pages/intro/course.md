@@ -1,11 +1,11 @@
 ---
 layout: intro
-title: Cirriculum
+title: Curriculum
 level: 1
 ---
 
 # IRM1005 - ITEC1005
-Unpack the cirriculum
+Unpack the curriculum
 
 <!-- 
 
